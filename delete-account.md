@@ -10,7 +10,7 @@ it. It is deleted from your account straight away.
 
 ## Delete your entire account and all data
 
-Email **monitoring@hyteps.nl** with the subject **"Delete my account"**, from the
+Email **lebresoftware@gmail.com** with the subject **"Delete my account"**, from the
 email address on your account (or include that email in the message). We will
 permanently delete your account and all of your saved cars from our systems
 (Supabase) within **30 days**.

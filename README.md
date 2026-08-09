@@ -117,4 +117,4 @@ the updated policy.
 
 For any privacy question or to request deletion of your data, contact:
 
-**monitoring@hyteps.nl**
+**lebresoftware@gmail.com**
