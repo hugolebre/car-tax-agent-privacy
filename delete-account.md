@@ -10,7 +10,12 @@ it. It is deleted from your account straight away.
 
 ## Delete your entire account and all data
 
-Email **lebresoftware@gmail.com** with the subject **"Delete my account"**, from the
+**In the app:** open **Settings → Account** and tap **Delete my account & cloud
+data**, then confirm. Your account and every car saved in the cloud are deleted
+immediately. Cars stored only on your phone stay there until you remove them or
+uninstall the app.
+
+**By email:** if you can no longer use the app, email **lebresoftware@gmail.com** with the subject **"Delete my account"**, from the
 email address on your account (or include that email in the message). We will
 permanently delete your account and all of your saved cars from our systems
 (Supabase) within **30 days**.
@@ -33,4 +38,4 @@ Advertising is provided by Google; see the [Privacy Policy](./) and Google's
 policies. Feedback you sent through the in-app form can also be deleted on request
 to the same email address.
 
-_Last updated: 9 August 2026_
+_Last updated: 24 October 2026_

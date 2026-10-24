@@ -1,6 +1,6 @@
 # Privacy Policy — Car Tax Agent
 
-**Last updated: 9 August 2026**
+**Last updated: 24 October 2026**
 
 This Privacy Policy explains what information the **Car Tax Agent** mobile app
 ("the app", "we", "us") collects, how it is used, and the choices you have. By
@@ -23,13 +23,14 @@ road tax for a used or imported car in several European countries.
 
 **Account information (only if you sign in).**
 If you create an account or continue as a guest, we store an account identifier
-and, for email accounts, your **email address**. Authentication is handled by our
-backend provider, **Supabase**. Passwords are managed by Supabase and are not
-visible to us.
+(user ID). For email accounts we store your **email address**; if you sign in with
+**Google**, we receive your **email address and name** from your Google account.
+Authentication is handled by our backend provider, **Supabase**. Passwords are
+managed by Supabase and are not visible to us.
 
 **Your saved cars ("Garage").**
 When you save a car, the details you entered — such as engine size, CO₂, fuel
-type, registration date, power, price, the country you selected, and a label you
+type, registration date, power, kerb and gross weight, price, the country you selected, and a label you
 give it — are stored so you can see and compare them later. If you are signed in,
 they are stored in your account (via Supabase) so they sync across your devices.
 If you use the app without an account, your garage is stored on your device and
@@ -43,9 +44,15 @@ device model, and Android version). This is submitted to a private Google Form
 that we own.
 
 **Advertising data.**
-The free version displays ads via **Google AdMob**. Google may collect and process
-device identifiers and usage data to serve and measure ads, as described in
-Google's policies.
+The free version displays ads via **Google AdMob**. The AdMob SDK collects and
+shares with Google your device's **advertising ID**, your **approximate location**
+(derived from your IP address), **app interactions** (such as ad views and taps) and
+**diagnostics / crash data**, to serve and measure ads, for analytics, and to prevent
+fraud, as described in Google's policies. In the EEA, the UK and Switzerland the app
+asks for your consent (via Google's consent message) before personalised ads are
+shown; you can change your choice at any time from the app's settings.
+Google ML Kit (used for on-device text recognition) may also send anonymous
+diagnostics and usage data to Google to keep the SDK working.
 
 **Processed on your device, never collected.**
 To read a car listing, the app uses your **camera** or a one-time, user-consented
@@ -53,8 +60,9 @@ To read a car listing, the app uses your **camera** or a one-time, user-consente
 captured images and screen contents are processed locally and are **not** sent to
 us or to any server, and are **not** stored by the app.
 
-We do **not** collect your location, contacts, or precise identifiers, and the app
-is not directed to children.
+Apart from the approximate location AdMob derives from your IP address (see
+*Advertising data*), we do **not** collect your precise location or your contacts,
+and the app is not directed to children.
 
 ## How we use information
 
@@ -83,8 +91,10 @@ advertising beyond the ad services described above.
 
 - **Your saved cars** stay until you delete them. You can remove any car in the
   app, and you can sign out at any time.
-- **Delete your account / data:** email us (below) and we will delete your account
-  and its saved cars from Supabase.
+- **Delete your account / data:** in the app, open **Settings → Account → Delete
+  my account & cloud data**. This permanently deletes your account and every car
+  saved in the cloud straight away. You can also email us (below) and we will do it
+  for you. See [Delete your account](delete-account.html).
 - **Ads / feedback data** are retained by Google according to their policies.
 
 ## Permissions we request
